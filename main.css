@@ -1,0 +1,55 @@
+body, h2, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto 0;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #777;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 30px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  box-shadow: 0 0 4px #777;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #999;
+  color: #fff;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  opacity: .7;
+  box-shadow: none;
+}
+
+button:disabled {
+  opacity: .3;
+  pointer-events: none;
+}
